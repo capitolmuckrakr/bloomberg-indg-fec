@@ -1,0 +1,21 @@
+Django>=4.0.5
+psycopg2
+beautifulsoup4
+boto
+boto3
+datadog
+ipython
+django-extensions
+django-storages
+djangorestframework>=3.13
+django-pure-pagination
+django-localflavor
+-e git+https://github.com/newsdev/fec2json
+gunicorn
+lxml==4.9.0
+markupsafe
+mkdocs
+requests
+python-dotenv
+systemd-python
+uwsgi

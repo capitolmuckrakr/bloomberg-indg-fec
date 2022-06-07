@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block navbar %}
+
+ <div class="navbar navbar-default navbar-primary">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="logo-links__cnn"></div>
+          <a class="navbar-brand" href="/">FEC</span></a>
+
+            <span style="
+            color: #737373;
+            font-weight: light;
+            font-family: Helvetica Neue, Helvetica, Utkal, Arial, sans-serif;
+            padding: 10px 15px;
+            ">Bloomberg INDG-processed campaign finance data</span>
+        </div>
+
+
+      </div>
+    </div>
+
+<div id="content" class="container">
+      {% block content %}{% endblock %}
+</div>
+
+{% endblock %}
